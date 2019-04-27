@@ -42,7 +42,7 @@ async def presence():
         if get_info == 2:
             thing = ('With {} Users'.format(len(list(Iori.get_all_members()))))
         if get_info == 3:
-            thing = "Prefixes: '|'"
+            thing = "Prefixes: 'e:'"
         await Iori.change_presence(status=status.dnd, activity=discord.Game(name=thing))
         await asyncio.sleep(15)
 
