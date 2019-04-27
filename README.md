@@ -1,2 +1,2 @@
-# Example-Bot-Discord.Py-Rewrite
-Discord.py Example Bot
+# Just A Basic Bot For Discord.Py
+Feel Free To Use,, 
