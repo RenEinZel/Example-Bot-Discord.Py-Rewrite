@@ -56,3 +56,5 @@ async def on_ready():
     print(f'OwnerID:{owner_id}')
     print(f'Extensions Loaded: {len(Iori.extensions)}/{len(startup_extensions)}')
     print('all module are up!')
+    
+bot.run(read_config('token')
